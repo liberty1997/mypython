@@ -64,7 +64,7 @@ for item in systemInfo:
     caption = caption + headers[index] + " " * (len(item) - len(headers[index]) + 1)
     values = values + item + " "
     ### 索引加 1
-    index = index + 1
+ index = index + 1
 ### 终止循环
 
 ### 输出转换为大写的变量(字段标题)名
